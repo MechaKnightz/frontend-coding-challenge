@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+a,
+h1 {
+  text-align: center;
+}
+
+#container,
+form,
+#products-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+#container,
+#products-container {
+  border-radius: 1rem;
+}
+
+#container,
+#products-container {
+  padding: 3rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+input,
+label {
+  font-size: large;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+}
+
+a {
+  margin-bottom: 1rem;
+}
+
+a,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border-color: rgb(207, 207, 207);
+  border-style: solid;
+  padding: 0.5rem;
+}
+
+input[type="submit"] {
+  margin-top: 1rem;
+  background-color: #ee5684;
+  border: none;
+  color: white;
+}
+
+@media (orientation: landscape) {
+  #container {
+    width: 15%;
+    margin: auto;
+  }
+}
+
+@media (orientation: portrait) {
+  #container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  #products-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.product {
+  margin: 1rem;
+}
+
+tr:nth-child(even) {
+  background: #ccc;
+}
+
+td {
+  padding: 1rem;
+}
+
+.header,
+.footer {
+  text-align: center;
+  margin: 2rem;
+}
+
+table {
+  border-spacing: 0;
+}

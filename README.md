@@ -1,18 +1,32 @@
-# frontend-coding-challenge
+# How to run
 
-Using the https://reqres.in/ API, create a login, create user and logged in view.
+## Clone
 
-Requirements:
-- React (Preferably Typescript)
-- Mobile friendly
+```bash
+git clone git@github.com:MechaKnightz/frontend-coding-challenge.git
+```
 
-Results:
-- A login view with username and password fields
-- A create user view with username and password fields as a minimum
-- On successful login a table of products using this url: https://reqres.in/api/products
+## Install dependencies
 
+```bash
+cd frontend-coding-challenge
+yarn
+```
 
-Challenge instructions:
-- Fork this repo
-- Complete the challenge (and edit the read me with installation/running instructions)
-- Email jobb@spinit.se / jens.hendar@spinit.se
+## Dev env
+
+```bash
+yarn start
+```
+
+## Build production
+
+```bash
+yarn build
+```
+
+# How to use
+
+Register with a defined user e.g. michael.lawson@reqres.in
+
+Login with a defined user e.g. michael.lawson@reqres.in
