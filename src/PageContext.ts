@@ -6,7 +6,7 @@ type PageContent = {
 };
 
 const PageContext = createContext<PageContent>({
-  page: "register",
+  page: "login",
   setPage: () => {},
 });
 

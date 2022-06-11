@@ -4,7 +4,7 @@ import { Pages } from "./components/Pages";
 import { PageContext } from "./PageContext";
 
 const App = () => {
-  const [page, setPage] = useState<string>("register");
+  const [page, setPage] = useState<string>("login");
 
   return (
     <div className="App">
